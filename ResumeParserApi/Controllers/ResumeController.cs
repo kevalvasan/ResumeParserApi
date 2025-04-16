@@ -14,53 +14,52 @@ namespace ResumeParserApi.Controllers
             if (files == null || files.Count == 0)
                 return BadRequest("No files uploaded.");
 
-            var tempFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "temp");
-            Directory.CreateDirectory(tempFolderPath);  // Ensure folder exists
-
             var results = new List<object>();
 
             foreach (var file in files)
             {
                 var fileExtension = Path.GetExtension(file.FileName).ToLower();
                 if (fileExtension != ".pdf")
-                    return BadRequest("Only PDF format is supported at this stage.");
+                    return BadRequest("Only PDF format is supported.");
 
-                var savedPdfPath = Path.Combine(tempFolderPath, file.FileName);
-
-                // Save the uploaded PDF file to the temp folder
-                using (var stream = new FileStream(savedPdfPath, FileMode.Create))
+                try
                 {
-                    await file.CopyToAsync(stream);
+                    using var memoryStream = new MemoryStream();
+                    await file.CopyToAsync(memoryStream);
+                    memoryStream.Position = 0;
+
+                    //  process using memory stream
+                    (string ocrText, dynamic nameData) = await ResumeParserHelpers.ProcessPdfStream(memoryStream);
+
+                    var phone = ResumeParserHelpers.ExtractPhoneNumber(ocrText);
+                    var (primaryEmail, otherEmails) = ResumeParserHelpers.ExtractEmails(ocrText);
+                    var qualifications = ResumeParserHelpers.ExtractQualifications(ocrText);
+                    var skills = ResumeParserHelpers.ExtractSkills(ocrText);
+                    var (city, state) = ResumeParserHelpers.GetCityState(ocrText);
+
+                    results.Add(new
+                    {
+                        FirstName = nameData?.FirstName,
+                        MiddleName = nameData?.MiddleName,
+                        LastName = nameData?.LastName,
+                        FatherName = nameData?.FatherName,
+                        PhoneNumber = phone,
+                        PrimaryEmail = primaryEmail,
+                        OtherEmails = otherEmails,
+                        qualifications,
+                        skills,
+                        city,
+                        state
+                    });
                 }
-
-                // Extract OCR text and name data from the PDF
-                var (ocrText, nameData) = await ResumeParserHelpers.ProcessPdfAndGenerateAssets(savedPdfPath, tempFolderPath);
-
-                // Extract phone number from OCR text
-                var phone = ResumeParserHelpers.ExtractPhoneNumber(ocrText);
-                var (primaryEmail, otherEmails) = ResumeParserHelpers.ExtractEmails(ocrText);
-                var qualifications = ResumeParserHelpers.ExtractQualifications(ocrText);
-                var skills = ResumeParserHelpers.ExtractSkills(ocrText);
-                var (city, state) = ResumeParserHelpers.GetCityState(ocrText);
-
-
-                results.Add(new
+                catch (Exception ex)
                 {
-                    FirstName = nameData?.FirstName,
-                    MiddleName = nameData?.MiddleName,
-                    LastName = nameData?.LastName,
-                    FatherName = nameData?.FatherName,
-                    PhoneNumber = phone,
-                    PrimaryEmail = primaryEmail,
-                    OtherEmails = otherEmails,
-                    qualifications = qualifications,
-                    skills = skills,
-                    city = city,
-                    state = state
-                });
+                    results.Add(new { File = file.FileName, Error = ex.Message });
+                }
             }
 
             return Ok(results);
         }
+
     }
 }

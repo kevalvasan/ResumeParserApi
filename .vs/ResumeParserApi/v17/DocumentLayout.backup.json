@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\aman\\ResumeParserApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|e:\\aman\\resumeparserapi\\resumeparserapi\\resumeparserapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|solutionrelative:resumeparserapi\\resumeparserapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|e:\\aman\\resumeparserapi\\resumeparserapi\\helpers\\resumeparserhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|solutionrelative:resumeparserapi\\helpers\\resumeparserhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|e:\\aman\\resumeparserapi\\resumeparserapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|solutionrelative:resumeparserapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|e:\\aman\\resumeparserapi\\resumeparserapi\\controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|solutionrelative:resumeparserapi\\controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|e:\\aman\\resumeparserapi\\resumeparserapi\\resumeparserapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FC6627CD-F0DD-4D1C-9A00-D143069CFF1C}|ResumeParserApi\\ResumeParserApi.csproj|solutionrelative:resumeparserapi\\resumeparserapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,12 +43,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\aman\\ResumeParserApi\\ResumeParserApi\\Program.cs",
+              "RelativeDocumentMoniker": "ResumeParserApi\\Program.cs",
+              "ToolTip": "E:\\aman\\ResumeParserApi\\ResumeParserApi\\Program.cs",
+              "RelativeToolTip": "ResumeParserApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T04:42:39.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ResumeParserHelpers.cs",
               "DocumentMoniker": "E:\\aman\\ResumeParserApi\\ResumeParserApi\\Helpers\\ResumeParserHelpers.cs",
               "RelativeDocumentMoniker": "ResumeParserApi\\Helpers\\ResumeParserHelpers.cs",
               "ToolTip": "E:\\aman\\ResumeParserApi\\ResumeParserApi\\Helpers\\ResumeParserHelpers.cs",
               "RelativeToolTip": "ResumeParserApi\\Helpers\\ResumeParserHelpers.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFAAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAuwNYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T05:08:27.111Z",
               "EditorCaption": ""
@@ -57,23 +74,21 @@
               "RelativeDocumentMoniker": "ResumeParserApi\\Controllers\\ResumeController.cs",
               "ToolTip": "E:\\aman\\ResumeParserApi\\ResumeParserApi\\Controllers\\ResumeController.cs",
               "RelativeToolTip": "ResumeParserApi\\Controllers\\ResumeController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T05:05:45.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T05:05:45.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ResumeParserApi.csproj",
               "DocumentMoniker": "E:\\aman\\ResumeParserApi\\ResumeParserApi\\ResumeParserApi.csproj",
               "RelativeDocumentMoniker": "ResumeParserApi\\ResumeParserApi.csproj",
               "ToolTip": "E:\\aman\\ResumeParserApi\\ResumeParserApi\\ResumeParserApi.csproj",
               "RelativeToolTip": "ResumeParserApi\\ResumeParserApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-15T05:07:59.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T05:07:59.595Z"
             }
           ]
         }
