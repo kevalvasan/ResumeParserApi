@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "ResumeParserApi/ResumeParserApi.csproj",
+        "use": "@vercel/dotnet"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "ResumeParserApi/ResumeParserApi.csproj"
+      }
+    ]
+  }
+  
