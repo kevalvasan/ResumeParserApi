@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResumeParserApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f93744357c11aef3f9f1ffc691cba2935c001e0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResumeParserApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResumeParserApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
