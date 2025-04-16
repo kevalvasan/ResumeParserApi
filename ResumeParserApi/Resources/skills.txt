@@ -1,0 +1,99 @@
+Python
+Java
+C#
+VB.NET
+JavaScript
+TypeScript
+C++
+Go
+Rust
+PHP
+Ruby
+Swift
+Kotlin
+HTML
+CSS
+React
+Angular
+Vue.js
+ASP.NET
+Node.js
+Django
+Flask
+Bootstrap
+SQL
+MySQL
+PostgreSQL
+Oracle
+MongoDB
+SQLite
+PL/SQL
+T-SQL
+Pandas
+NumPy
+TensorFlow
+PyTorch
+Scikit-learn
+Matplotlib
+Seaborn
+Jupyter Notebook
+R
+Matlab
+AWS
+Azure
+Google Cloud Platform
+Docker
+Kubernetes
+Jenkins
+CI/CD
+Terraform
+Ansible
+Git
+GitHub
+Microsoft Word
+Microsoft Excel
+PowerPoint
+Outlook
+Google Docs
+Google Sheets
+Trello
+Slack
+Zoom
+Figma
+Adobe XD
+Photoshop
+Illustrator
+Canva
+Communication
+Teamwork
+Problem Solving
+Leadership
+Adaptability
+Time Management
+Critical Thinking
+Creativity
+Attention to Detail
+Conflict Resolution
+Decision Making
+Agile
+Scrum
+Kanban
+JIRA
+Confluence
+Networking
+Firewall
+Penetration Testing
+Cybersecurity
+Information Security
+Encryption
+Ethical Hacking
+Customer Service
+Technical Support
+CRM
+ERP
+SAP
+QuickBooks
+Business Analysis
+Market Research
+SEO
+Digital Marketing

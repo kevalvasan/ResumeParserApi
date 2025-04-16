@@ -1,0 +1,6 @@
+@ResumeParserApi_HostAddress = http://localhost:5277
+
+GET {{ResumeParserApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

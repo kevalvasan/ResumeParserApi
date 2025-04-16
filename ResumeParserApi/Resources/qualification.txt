@@ -1,0 +1,112 @@
+High School Diploma
+Secondary School Certificate
+Higher Secondary Certificate
+Intermediate
+Pre-University Course
+Bachelor of Arts
+Bachelor of Science
+Bachelor of Commerce
+Bachelor of Computer Applications
+Bachelor of Business Administration
+Bachelor of Engineering
+Bachelor of Technology
+Bachelor of Fine Arts
+Bachelor of Architecture
+Bachelor of Design
+Bachelor of Pharmacy
+Bachelor of Education
+Bachelor of Law
+Bachelor of Social Work
+Bachelor of Journalism
+Bachelor of Library Science
+Master of Arts
+Master of Science
+Master of Commerce
+Master of Computer Applications
+Master of Business Administration
+Master of Engineering
+Master of Technology
+Master of Fine Arts
+Master of Architecture
+Master of Pharmacy
+Master of Education
+Master of Law
+Master of Social Work
+Master of Journalism
+Master of Library Science
+Doctor of Philosophy
+Doctor of Medicine
+Diploma in Engineering
+Diploma in Computer Applications
+Diploma in Business Management
+Diploma in Graphic Design
+Diploma in Web Development
+Diploma in Nursing
+Diploma in Education
+Diploma in Pharmacy
+Diploma in Mechanical Engineering
+Diploma in Electrical Engineering
+Diploma in Civil Engineering
+Diploma in Hotel Management
+Chartered Accountant
+Company Secretary
+Cost and Management Accountant
+Certified Financial Analyst
+Certified Public Accountant
+GATE Qualified
+NET Qualified
+UGC NET
+SET Qualified
+ITI Electrician
+ITI Fitter
+ITI Welder
+ITI Mechanic
+Polytechnic Diploma
+Post Graduate Diploma in Management
+Post Graduate Diploma in Computer Applications
+Post Graduate Diploma in HR
+Post Graduate Diploma in Finance
+Post Graduate Diploma in Marketing
+PGDM
+MBBS
+BDS
+BAMS
+BHMS
+BUMS
+BPT
+BMLT
+B.Sc Nursing
+GNM
+ANM
+B.Ed
+M.Ed
+LLB
+LLM
+B.L.I.Sc
+M.L.I.Sc
+B.Tech
+B.E
+BE
+M.Tech
+M.E
+ME
+B.Sc
+M.Sc
+B.Com
+M.Com
+BBA
+MBA
+BCA
+MCA
+PGDM
+LLB
+LLM
+B.Pharm
+M.Pharm
+B.Ed
+M.Ed
+MBBS
+BDS
+BAMS
+BHMS
+BUMS

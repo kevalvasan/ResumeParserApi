@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "JkWXIu5fy5piwaIC0nUPT3zVUcPJj5dNFULzbrO0Cnc=",
+  "Source": "ResumeParserApi",
+  "BasePath": "_content/ResumeParserApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
